@@ -1,23 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:background="#000000"
+    android:orientation="vertical"
+>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/teks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello"
-        android:textSize="24sp"/>
+        android:text="salamaleykum dunya"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:layout_marginBottom="20dp"
+    />
+
+    <EditText
+        android:id=""
+        android:layout_width="wrap_parent"
+        android:layout_height="wrap_content"
+        android:
+    />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/tombol"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Klik Saya"/>
+        android:background="#ABABAB"
+        android:text="Tombol"
+        android:textColor="#FFFFFF"
+    />
+
+    <Button
+        android:id="@+id/tombolPindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ABABAB"
+        android:text="Pindah"
+        android:textColor="#FFFFFF"
+    />
 
 </LinearLayout>

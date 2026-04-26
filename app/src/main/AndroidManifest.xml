@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
-        android:label="PM25-Week3"
+        android:label="My App"
         android:theme="@style/Theme.AppCompat.Light">
 
         <activity
@@ -13,6 +13,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".SecondaryActivity" android:exported="false"></activity>
 
     </application>
 
